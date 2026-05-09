@@ -1,0 +1,24 @@
+{
+    "name": "theme-adler",
+    "displayName": "Adler",
+    "description": "%description%",
+    "version": "10.0.0",
+    "publisher": "vscode",
+    "license": "MIT",
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "id": "Adler Theme",
+                "label": "Adler",
+                "uiTheme": "vs-dark",
+                "path": "./themes/adler-theme.json"
+            }
+        ]
+    }
+}
